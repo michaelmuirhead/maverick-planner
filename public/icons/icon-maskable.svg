@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="512" y2="512">
+      <stop offset="0" stop-color="#faf7f2"/>
+      <stop offset="1" stop-color="#f0e7d8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background (no corner radius for maskable) -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Dots shrunk into Android's safe zone -->
+  <circle cx="180" cy="180" r="48" fill="#2563eb"/>
+  <circle cx="332" cy="180" r="48" fill="#059669"/>
+  <circle cx="180" cy="256" r="48" fill="#e11d48"/>
+  <circle cx="332" cy="256" r="48" fill="#7c3aed"/>
+  <circle cx="180" cy="332" r="48" fill="#d97706"/>
+  <circle cx="332" cy="332" r="48" fill="#ea580c"/>
+
+  <!-- Center anchor -->
+  <circle cx="256" cy="256" r="14" fill="#1c1917"/>
+  <circle cx="256" cy="256" r="5" fill="#fbbf24"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="512" y2="512">
+      <stop offset="0" stop-color="#faf7f2"/>
+      <stop offset="1" stop-color="#f0e7d8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- Simplified 2x2 grid for tiny rendering -->
+  <circle cx="180" cy="180" r="88" fill="#2563eb"/>
+  <circle cx="332" cy="180" r="88" fill="#059669"/>
+  <circle cx="180" cy="332" r="88" fill="#d97706"/>
+  <circle cx="332" cy="332" r="88" fill="#ea580c"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="512" y2="512">
+      <stop offset="0" stop-color="#faf7f2"/>
+      <stop offset="1" stop-color="#f0e7d8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Warm paper background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Six domain dots in 2x3 grid -->
+  <circle cx="156" cy="156" r="62" fill="#2563eb"/>
+  <circle cx="356" cy="156" r="62" fill="#059669"/>
+  <circle cx="156" cy="256" r="62" fill="#e11d48"/>
+  <circle cx="356" cy="256" r="62" fill="#7c3aed"/>
+  <circle cx="156" cy="356" r="62" fill="#d97706"/>
+  <circle cx="356" cy="356" r="62" fill="#ea580c"/>
+
+  <!-- Center anchor: the unifying point where all domains connect -->
+  <circle cx="256" cy="256" r="18" fill="#1c1917"/>
+  <circle cx="256" cy="256" r="6" fill="#fbbf24"/>
+</svg>
